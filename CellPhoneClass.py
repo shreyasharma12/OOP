@@ -30,6 +30,15 @@ class CellPhone:
     def get_retail_price(self):
         return self.__retail_price
 
+
+
+
+
+    def get_retail_price(self):
+            return self.__retail_price
+
+    def__str__(self)
+    
 ############################################################################
     def __str__(self):
         return 'The phone manufacturer is:' + str(self.__manufacturer) + "The phone model is:" + str(self.__model) + "The phone price is:" + format(self.__retail_price, ',.2f')
